@@ -1,14 +1,7 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/": "pages/index.html",
   "/_document": "pages/_document.js",
-  "/en/404": "pages/en/404.html",
-  "/ar/404": "pages/ar/404.html",
-  "/tr/404": "pages/tr/404.html",
-  "/en/500": "pages/en/500.html",
-  "/ar/500": "pages/ar/500.html",
-  "/tr/500": "pages/tr/500.html",
-  "/en": "pages/en.html",
-  "/ar": "pages/ar.html",
-  "/tr": "pages/tr.html"
+  "/404": "pages/404.html"
 }
