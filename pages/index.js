@@ -28,10 +28,17 @@ const Home = () => {
         setMobileMenuActive(!isMobileMenuActive);
     }
 
+    const addMeWaitlist = () => { 
+        window.open("https://2mt6spntv02.typeform.com/to/jQiA7T1z", "_blank");
+    }
+
     return (<>
             <Head>
-                <title>Create Next App</title>
-                <link rel="icon" href="/favicon.ico"/>
+                <title>Pixurate</title>
+                <meta name="description" content="Ultimate Customer Engagement with NFTs"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+                <link rel="icon" href="img/favicon-32x32.png" />
                 <link rel="preconnect" href="https://fonts.googleapis.com"/>
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
                 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>
@@ -51,17 +58,18 @@ const Home = () => {
                         </div>
                         <div className="menu">
                             <ul>
-                                <li><a href="">Services</a></li>
+                                {/* <li><a href="">Services</a></li>
                                 <li><a href="">NFTs</a></li>
                                 <li><a href="">Influencers</a></li>
-                                <li><a href="">Tokens</a></li>
+                                <li><a href="">Tokens</a></li> */}
+                                <li><a href="https://2mt6spntv02.typeform.com/to/jQiA7T1z" target="_blank">Register to Waitlist</a></li>
                             </ul>
                         </div>
 
                         <div className="menu">
                             <ul>
-                                <li><a href="">Login</a></li>
-                                <li><a className="active" href="">Sign up</a></li>
+                                <li><a href="https://app.pixurate.com/login" target="_blank">Login</a></li>
+                                <li><a className="active" href="https://app.pixurate.com/register" target="_blank">Sign up</a></li>
                             </ul>
                             <div className="toggle" onClick={() => updateMobileMenuActive()}>
                                 <BsList/>
@@ -89,7 +97,7 @@ const Home = () => {
                 <section className="welcome">
                     <div className="texts">
                         <h1>
-                            Get your store r eady for the future <strong>Ultimate Customer Engagement with NFTs</strong>
+                            Get your store ready for the future <strong>Ultimate Customer Engagement with NFTs</strong>
                         </h1>
                         <p>
                             Pixurate provides ECommerce owners with seamlessly integrated Blockchain solutions to ace customer engagement.
@@ -102,7 +110,7 @@ const Home = () => {
                     <div className="actions">
                         <div>I’m a <strong>business owner</strong> <BsCaretDownFill/></div>
                         <div>I’m interested with <strong>NFT</strong> <BsCaretDownFill/></div>
-                        <div className="add-wait-list">+ Add me waitlist</div>
+                        <div className="add-wait-list" onClick={addMeWaitlist}>+ Add me waitlist</div>
                     </div>
                 </section>
 
@@ -205,12 +213,12 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
-
+            
                 <section className="purchase">
                     <div className="content custom-tabs">
                         <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
                             <li className="nav-item" role="presentation">
-                                <button className="nav-link active" id="purchase-one-tab" data-bs-toggle="pill" data-bs-target="#purchase-one" type="button" role="tab" aria-controls="purchase-one" aria-selected="true">Prooven purchase</button>
+                                <button className="nav-link active" id="purchase-one-tab" data-bs-toggle="pill" data-bs-target="#purchase-one" type="button" role="tab" aria-controls="purchase-one" aria-selected="true">Verified purchase</button>
                             </li>
                             <li className="nav-item" role="presentation">
                                 <button className="nav-link" id="purchase-two-tab" data-bs-toggle="pill" data-bs-target="#purchase-two" type="button" role="tab" aria-controls="purchase-two" aria-selected="false">Trusted Reviews</button>
