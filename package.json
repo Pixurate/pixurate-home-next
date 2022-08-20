@@ -13,6 +13,6 @@
     "swiper": "^8.3.1"
   },
   "devDependencies": {
-    "sass": "^1.53.0"
+    "sass": "^1.54.5"
   }
 }
