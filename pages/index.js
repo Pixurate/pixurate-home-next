@@ -32,6 +32,9 @@ const Home = () => {
         window.open("https://2mt6spntv02.typeform.com/to/jQiA7T1z", "_blank");
     }
 
+    const openPixurateRegister = () => {
+        window.open("https://app.pixurate.com/register", "_blank");
+    }
     return (<>
             <Head>
                 <title>Pixurate</title>
@@ -56,7 +59,7 @@ const Home = () => {
                         <div className="logo">
                             <img src="/img/logo.png" alt="logo"/>
                         </div>
-                        <div className="menu">
+                        <div className="menu justify-content-center">
                             <ul>
                                 {/* <li><a href="">Services</a></li>
                                 <li><a href="">NFTs</a></li>
@@ -236,7 +239,7 @@ const Home = () => {
                                   <div className="left">
                                       <h2>Purchase verification</h2>
                                       <p>Transparent and secure. NFTs include purchase metadata. NFT owners are verified customers by blockchain.</p>
-                                      <div className="join-beta-button">
+                                      <div className="join-beta-button" onClick={openPixurateRegister}>
                                           Join Beta <BsArrowRight/>
                                       </div>
                                   </div>
@@ -257,7 +260,7 @@ const Home = () => {
                                             Universal Rating Scale <br/>
                                             Pure Information - Real Ratings (Not Inflated) <br/>
                                             Review&Rating Widgets</p>
-                                        <div className="join-beta-button">
+                                        <div className="join-beta-button" onClick={openPixurateRegister}>
                                             Join Beta <BsArrowRight/>
                                         </div>
                                     </div>
@@ -270,7 +273,7 @@ const Home = () => {
                                 <div className="content">
                                     <div className="left">
                                         <h2>Customer Incentives</h2>
-                                        <div className="join-beta-button">
+                                        <div className="join-beta-button" onClick={openPixurateRegister}>
                                             Join Beta <BsArrowRight/>
                                         </div>
                                     </div>
@@ -290,7 +293,7 @@ const Home = () => {
                                             Insight about product <br/>
                                             Influencer engagement
                                         </p>
-                                        <div className="join-beta-button">
+                                        <div className="join-beta-button" onClick={openPixurateRegister}>
                                             Join Beta <BsArrowRight/>
                                         </div>
                                     </div>
