@@ -43,7 +43,7 @@ const Home = () => {
 
                 <link rel="icon" href="img/favicon-32x32.png" />
                 <link rel="preconnect" href="https://fonts.googleapis.com"/>
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
+                <link rel="preconnect" href="https://fonts.gstatic.com"/>
                 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>
                 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
                 <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet"/>
@@ -96,11 +96,10 @@ const Home = () => {
                     }
                 </header>
 
-
                 <section className="welcome">
                     <div className="texts">
                         <h1>
-                            Get your store ready for the future <strong>Ultimate Customer Engagement with NFTs</strong>
+                            Get your store ready for the future <strong>Ultimate Customer Engagement <span>with NFTs</span></strong>
                         </h1>
                         <p>
                             Pixurate provides ECommerce owners with seamlessly integrated Blockchain solutions to ace customer engagement.
@@ -136,7 +135,7 @@ const Home = () => {
                                 <button className="nav-link" id="generate-five-tab" data-bs-toggle="pill" data-bs-target="#generate-five" type="button" role="tab" aria-controls="generate-five" aria-selected="false">Build a Community</button>
                             </li>
                         </ul>
-                        <div className="tab-content" id="pills-tabContent">
+                        <div className="tab-content " id="pills-tabContent">
                             <div className="tab-pane fade show active" id="generate-first" role="tabpanel" aria-labelledby="pills-home-tab">
                                 <div className="content">
                                     <div className="left">
@@ -215,8 +214,148 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
+
+                    <div className="content mobile-content">
+                        <div className="accordion" id="accordionExample">
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="headingOne">
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Generate NFTs
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div className="accordion-body">
+                                        <div id="generate-first">
+                                            <div className="content">
+                                                <div className="left">
+                                                    <h2 className="text">Pixurate generates AI-powered NFTs for any product or service on your store</h2>
+                                                </div>
+                                                <div className="right">
+                                                    <div className="before">
+                                                        <img src="/img/generate/generate1.png"/>
+                                                    </div>
+                                                    <div className="text">
+                                                        <img src="/img/arrow.png"/>
+                                                        <div className="transform">
+                                                            <p>
+                                                                from Real Product <span>to <strong>NFT</strong></span>
+                                                            </p>
+                                                            <hr/>
+                                                            <hr/>
+                                                            <div className="round">
+                                                                <img src="/img/short_logo.png"/>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div className="after">
+                                                        <img src="/img/generate/generate2.png"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="headingTwo">
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Incentivize Customers
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div className="accordion-body">
+                                        <div id="generate-two">
+                                            <div className="content">
+                                                <div className="left">
+                                                    <h2>Incentivize
+                                                        your customers
+                                                        for engagement;</h2>
+                                                    <div className="text">
+                                                        <ul>
+                                                            <li>to improve social media presence and reach out to your customer’s network,</li>
+                                                            <li>“to collect feedback and highlight customer experience.”</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div className="right">
+                                                    <img src="/img/generate/incetivize1.png"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="headingThree">
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Improve Social Media Presence
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div className="accordion-body">
+                                        <div id="generate-three">
+                                            <div className="content">
+                                                <div className="left">
+                                                    <h2 className="text">Reach out to your customers’ social media network. Do not spend a fortune on social media ads.</h2>
+                                                </div>
+                                                <div className="right">
+                                                    <img src="/img/generate/social1.png"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="headingFour">
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        Collect Authentic Reviews
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                    <div className="accordion-body">
+                                        <div id="generate-four">
+                                            <div className="content">
+                                                <div className="left">
+                                                    <h2 className="text">“Collect authentic reviews from your customers and promote your best products.”</h2>
+                                                </div>
+                                                <div className="right">
+                                                    <img src="/img/generate/collect1.png"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="headingFive">
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        Build a Community
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                    <div className="accordion-body">
+                                        <div id="generate-five">
+                                            <div className="content">
+                                                <div className="left">
+                                                    <h2 className="text">“Build and connect with your community of loyal customers.”</h2>
+                                                </div>
+                                                <div className="right">
+                                                    <img src="/img/generate/community1.png"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </section>
-            
+
                 <section className="purchase">
                     <div className="content custom-tabs">
                         <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
@@ -302,6 +441,125 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+
+                    <div className="content mobile-content">
+                        <div className="accordion" id="purchaseAccordion">
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="headingOne">
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#purchaseCollapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Verified purchase
+                                    </button>
+                                </h2>
+                                <div id="purchaseCollapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#purchaseAccordion">
+                                    <div className="accordion-body">
+                                        <div id="purchase-one">
+                                            <div className="content">
+                                                <div className="left">
+                                                    <h2>Purchase verification</h2>
+                                                    <p>Transparent and secure. NFTs include purchase metadata. NFT owners are verified customers by blockchain.</p>
+                                                    <div className="join-beta-button" onClick={openPixurateRegister}>
+                                                        Join Beta <BsArrowRight/>
+                                                    </div>
+                                                </div>
+                                                <div className="right">
+                                                    <img src="/img/purchase/purchase1.png"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="headingTwo">
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#purchaseCollapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Trusted Reviews
+                                    </button>
+                                </h2>
+                                <div id="purchaseCollapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#purchaseAccordion">
+                                    <div className="accordion-body">
+                                        <div id="purchase-two">
+                                            <div className="content">
+                                                <div className="left">
+                                                    <h2>Trusted reviews</h2>
+                                                    <p>Genuine Customer Feedback <br/>
+                                                        Transparent on Blockchain <br/>
+                                                        Indirect Feedback Incentives <br/>
+                                                        High Feedback Frequency <br/>
+                                                        Review Upvote <br/>
+                                                        Universal Rating Scale <br/>
+                                                        Pure Information - Real Ratings (Not Inflated) <br/>
+                                                        Review&Rating Widgets</p>
+                                                    <div className="join-beta-button" onClick={openPixurateRegister}>
+                                                        Join Beta <BsArrowRight/>
+                                                    </div>
+                                                </div>
+                                                <div className="right">
+                                                    <img src="/img/purchase/trusted1.png"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="headingThree">
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#purchaseCollapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Customer Incentives
+                                    </button>
+                                </h2>
+                                <div id="purchaseCollapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#purchaseAccordion">
+                                    <div className="accordion-body">
+                                        <div id="purchase-three">
+                                            <div className="content">
+                                                <div className="left">
+                                                    <h2>Customer Incentives</h2>
+                                                    <div className="join-beta-button" onClick={openPixurateRegister}>
+                                                        Join Beta <BsArrowRight/>
+                                                    </div>
+                                                </div>
+                                                <div className="right">
+                                                    <img src="/img/purchase/customer1.png"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="headingFour">
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#purchaseCollapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        Community
+                                    </button>
+                                </h2>
+                                <div id="purchaseCollapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#purchaseAccordion">
+                                    <div className="accordion-body">
+                                        <div id="purchase-four">
+                                            <div className="content">
+                                                <div className="left">
+                                                    <h2>Community</h2>
+                                                    <p>
+                                                        FOMO effect <br/>
+                                                        Feedback <br/>
+                                                        Sharable <br/>
+                                                        Insight about product <br/>
+                                                        Influencer engagement
+                                                    </p>
+                                                    <div className="join-beta-button" onClick={openPixurateRegister}>
+                                                        Join Beta <BsArrowRight/>
+                                                    </div>
+                                                </div>
+                                                <div className="right">
+                                                    <img src="/img/purchase/community1.png"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </section>
