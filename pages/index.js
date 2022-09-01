@@ -110,8 +110,8 @@ const Home = () => {
                     </div>
 
                     <div className="actions">
-                        <div>I’m a <strong>business owner</strong> <BsCaretDownFill/></div>
-                        <div>I’m interested with <strong>NFT</strong> <BsCaretDownFill/></div>
+                        /*<div>I’m a <strong>business owner</strong> <BsCaretDownFill/></div>
+                        <div>I’m interested with <strong>NFT</strong> <BsCaretDownFill/></div>*/
                         <div className="add-wait-list" onClick={addMeWaitlist}>+ Add me waitlist</div>
                     </div>
                 </section>
