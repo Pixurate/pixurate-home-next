@@ -1,34 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c3b6349-c881-4081-8d69-dd79c9e0823c" name="Changes" comment="">
+    <list default="true" id="93e056f1-1b47-47b8-af25-69a03c9e1957" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/BUILD_ID" beforeDir="false" afterPath="$PROJECT_DIR$/.next/BUILD_ID" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/BUILD_ID" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/build-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/next-server.js.nft.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/next-server.js.nft.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/prerender-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/prerender-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/required-server-files.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/required-server-files.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/0.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/1.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/2.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/3.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/4.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/8.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/3.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/4.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/export-marker.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/images-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/next-server.js.nft.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/prerender-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/required-server-files.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/routes-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/chunks/105.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/chunks/font-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/font-manifest.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/server/pages-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/pages/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/pages/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages/500.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/pages/_app.js.nft.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages/_app.js.nft.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/pages/_document.js.nft.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages/_document.js.nft.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/pages/_error.js.nft.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages/_error.js.nft.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/pages/index.js.nft.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages/index.js.nft.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/9vUoyP_u1CqIDYZEZzp9Y/_buildManifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/9vUoyP_u1CqIDYZEZzp9Y/_ssgManifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/index-d387e22a686423f1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/css/a60399f6161b1a31.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages/_app.js.nft.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages/_document.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages/_document.js.nft.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages/_error.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages/_error.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages/_error.js.nft.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages/index.js.nft.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/webpack-runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/webpack-runtime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/X-32ieUzL7A73GGQgSVUA/_buildManifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/X-32ieUzL7A73GGQgSVUA/_ssgManifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/0c428ae2-7f16415f716eb0cd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/753-50962719f485af89.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/framework-5f4595e5518b5600.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/main-7c5ed703f3f21a9f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/_app-09d15b173f3d990e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/_error-a4ba2246ff8fb532.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/index-dc314498d562ddab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/polyfills-0d1b80a048d4787e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/webpack-9b312e20a4e32339.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/css/170908bc8b2c7479.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/css/2b127243ce929464.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/trace" beforeDir="false" afterPath="$PROJECT_DIR$/.next/trace" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/loose-envify" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/loose-envify" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/nanoid" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/nanoid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/next" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/next" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sass" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/home.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/home.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,23 +103,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/xampp/htdocs/turacoon",
-    "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PhpStorm 2022.1.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/pixurate-home-next/public/img&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\PhpStorm 2022.1.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\pixurate-home-next\public\img" />
+      <recent name="C:\xampp\htdocs\pixurate-home-next\public\img\business" />
+      <recent name="C:\xampp\htdocs\pixurate-home-next\public\img\integrate" />
       <recent name="C:\xampp\htdocs\sit-landing-pages\public\img\purchase" />
       <recent name="C:\xampp\htdocs\sit-landing-pages\public\img\generate" />
-      <recent name="C:\xampp\htdocs\sit-landing-pages\public\img" />
-      <recent name="C:\xampp\htdocs\weather-app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\sit-landing-pages\public\img" />
@@ -103,7 +129,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2c3b6349-c881-4081-8d69-dd79c9e0823c" name="Changes" comment="" />
+      <changelist id="93e056f1-1b47-47b8-af25-69a03c9e1957" name="Changes" comment="" />
       <created>1659617530503</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -118,6 +144,8 @@
       <workItem from="1661188332453" duration="216000" />
       <workItem from="1661238409557" duration="61000" />
       <workItem from="1661238472667" duration="15870000" />
+      <workItem from="1662667058799" duration="14000" />
+      <workItem from="1662703564185" duration="4177000" />
     </task>
     <servers />
   </component>

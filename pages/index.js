@@ -99,17 +99,14 @@ const Home = () => {
                 <section className="welcome">
                     <div className="texts">
                         <h1>
-                            Get your store ready for the future <strong>Ultimate Customer Engagement <span>with NFTs</span></strong>
+                            Get your store ready for SOCIAL COMMERCE AND WEB3 <strong>Ultimate Customer Engagement <span>with NFTs</span></strong>
                         </h1>
                         <p>
                             Pixurate provides ECommerce owners with seamlessly integrated Blockchain solutions to ace customer engagement.
                         </p>
-                        <p>
-                            Prepare your store for the future of social commerce and Web3.
-                        </p>
                     </div>
 
-                    <div className="actions">
+                    <div className="actions d-none">
                         <div>I’m a <strong>business owner</strong> <BsCaretDownFill/></div>
                         <div>I’m interested with <strong>NFT</strong> <BsCaretDownFill/></div>
                         <div className="add-wait-list" onClick={addMeWaitlist}>+ Add me waitlist</div>
@@ -356,6 +353,191 @@ const Home = () => {
                     </div>
                 </section>
 
+                <section className="integrate">
+                    <h2>Integrate with houndereds platform</h2>
+                    <div className="content">
+                        <div className="img-box"><img src="/img/integrate/1.png"/></div>
+                        <div className="img-box"><img src="/img/integrate/2.png"/></div>
+                        <div className="img-box"><img src="/img/integrate/3.png"/></div>
+                        <div className="img-box"><img src="/img/integrate/4.png"/></div>
+                        <div className="img-box"><img src="/img/integrate/5.png"/></div>
+                        <div className="img-box"><img src="/img/integrate/6.png"/></div>
+                        <div className="img-box"><img src="/img/integrate/7.png"/></div>
+                        <div className="img-box"><img src="/img/integrate/8.png"/></div>
+                        <div className="img-box"><img src="/img/integrate/9.png"/></div>
+                        <div className="img-box"><img src="/img/integrate/10.png"/></div>
+                    </div>
+                </section>
+
+                <section className="business">
+                    <div className="content custom-tabs">
+                        <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li className="nav-item" role="presentation">
+                                <button className="nav-link active" id="business-one-tab" data-bs-toggle="pill" data-bs-target="#business-one" type="button" role="tab" aria-controls="business-one" aria-selected="true">Business owners</button>
+                            </li>
+                            <li className="nav-item" role="presentation">
+                                <button className="nav-link" id="business-two-tab" data-bs-toggle="pill" data-bs-target="#business-two" type="button" role="tab" aria-controls="business-two" aria-selected="false">Customers</button>
+                            </li>
+                            <li className="nav-item" role="presentation">
+                                <button className="nav-link" id="business-three-tab" data-bs-toggle="pill" data-bs-target="#business-three" type="button" role="tab" aria-controls="business-three" aria-selected="false">Influencers</button>
+                            </li>
+                        </ul>
+                        <div className="tab-content" id="pills-tabContent">
+                            <div className="tab-pane fade show active" id="business-one" role="tabpanel" aria-labelledby="business-one-tab">
+                                <div className="content">
+                                    <div className="left">
+                                        <h2>Business owners!</h2>
+                                        <p>Organic&Authentic <br/> Customer Engagement</p>
+                                        <div className="join-beta-button" onClick={openPixurateRegister}>
+                                            Join Beta <BsArrowRight/>
+                                        </div>
+                                    </div>
+                                    <div className="right">
+                                        <img src="/img/business/business.png"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="tab-pane fade" id="business-two" role="tabpanel" aria-labelledby="business-two-tab">
+                                <div className="content">
+                                    <div className="left">
+                                        <h2>Customers</h2>
+                                        <p>Enjoy perks with a socialized <br/> shopping experience.</p>
+                                        <div className="join-beta-button" onClick={openPixurateRegister}>
+                                            Join Beta <BsArrowRight/>
+                                        </div>
+                                    </div>
+                                    <div className="right">
+                                        <img src="/img/business/customers.png"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="tab-pane fade" id="business-three" role="tabpanel" aria-labelledby="business-three-tab">
+                                <div className="content">
+                                    <div className="left">
+                                        <h2>Influencers</h2>
+                                        <p>
+                                            Seemless integrations with <br/> online stores and the digital <br/> pair of their products & <br/> services (NFTs).
+                                        </p>
+                                        <div className="join-beta-button" onClick={openPixurateRegister}>
+                                            Join Beta <BsArrowRight/>
+                                        </div>
+                                    </div>
+                                    <div className="right">
+                                        <img src="/img/business/influencers.png"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="content mobile-content">
+                        <div className="accordion" id="bussiniesAccordion">
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="headingOne">
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bussinesCollapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Business owners
+                                    </button>
+                                </h2>
+                                <div id="bussinesCollapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#bussiniesAccordion">
+                                    <div className="accordion-body">
+                                        <div id="business-one" role="tabpanel">
+                                            <div className="content">
+                                                <div className="left">
+                                                    <h2>Business owners!</h2>
+                                                    <p>Organic&Authentic <br/> Customer Engagement</p>
+                                                    <div className="join-beta-button" onClick={openPixurateRegister}>
+                                                        Join Beta <BsArrowRight/>
+                                                    </div>
+                                                </div>
+                                                <div className="right">
+                                                    <img src="/img/business/business.png"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="headingTwo">
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#purchaseCollapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Customers
+                                    </button>
+                                </h2>
+                                <div id="purchaseCollapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#bussiniesAccordion">
+                                    <div className="accordion-body">
+                                        <divc id="business-two" >
+                                            <div className="content">
+                                                <div className="left">
+                                                    <h2>Customers</h2>
+                                                    <p>Enjoy perks with a socialized <br/> shopping experience.</p>
+                                                    <div className="join-beta-button" onClick={openPixurateRegister}>
+                                                        Join Beta <BsArrowRight/>
+                                                    </div>
+                                                </div>
+                                                <div className="right">
+                                                    <img src="/img/business/customers.png"/>
+                                                </div>
+                                            </div>
+                                        </divc>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="headingThree">
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#purchaseCollapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Influencers
+                                    </button>
+                                </h2>
+                                <div id="purchaseCollapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#bussiniesAccordion">
+                                    <div className="accordion-body">
+                                        <div id="business-three">
+                                            <div className="content">
+                                                <div className="left">
+                                                    <h2>Influencers</h2>
+                                                    <p>
+                                                        Seemless integrations with <br/> online stores and the digital <br/> pair of their products & <br/> services (NFTs).
+                                                    </p>
+                                                    <div className="join-beta-button" onClick={openPixurateRegister}>
+                                                        Join Beta <BsArrowRight/>
+                                                    </div>
+                                                </div>
+                                                <div className="right">
+                                                    <img src="/img/business/influencers.png"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+
+                <section className="social-commerce">
+                    <div className="content">
+                        <div className="left">
+                            <h2>Social Commerce</h2>
+                            <p>You can't just rely on your social media accounts to sell your products. You need to embrace online <strong>word-of-mouth</strong>.</p>
+                            <p>And that's where Pixurate comes in. With Pixurate, <br/> complement each sale with a <strong>unique NFT</strong> and <br/> give your customers the right incentive to tell <br/> their friends about you.</p>
+                            <p>Advertising has limited influence on <br/> sales; leverage recommendations and <br/> content disseminated by your <br/> customers — <strong>and make them your <br/> ambassadors!</strong></p>
+                            <div className="join-beta-button" onClick={openPixurateRegister}>
+                                Join Beta <BsArrowRight/>
+                            </div>
+                        </div>
+
+                        <div className="right">
+                            <img src="/img/social-commerce.png"/>
+                        </div>
+                    </div>
+                </section>
+
                 <section className="purchase">
                     <div className="content custom-tabs">
                         <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
@@ -374,18 +556,15 @@ const Home = () => {
                         </ul>
                         <div className="tab-content" id="pills-tabContent">
                             <div className="tab-pane fade show active" id="purchase-one" role="tabpanel" aria-labelledby="purchase-one-tab">
-                              <div className="content">
-                                  <div className="left">
-                                      <h2>Purchase verification</h2>
-                                      <p>Transparent and secure. NFTs include purchase metadata. NFT owners are verified customers by blockchain.</p>
-                                      <div className="join-beta-button" onClick={openPixurateRegister}>
-                                          Join Beta <BsArrowRight/>
-                                      </div>
-                                  </div>
-                                  <div className="right">
-                                      <img src="/img/purchase/purchase1.png"/>
-                                  </div>
-                              </div>
+                                <div className="content">
+                                    <div className="left">
+                                        <h2>Purchase verification</h2>
+                                        <p>Transparent and secure. NFTs include  purchase metadata. <br/> NFT owners are verified customers by blockchain.</p>
+                                    </div>
+                                    <div className="right">
+                                        <img src="/img/purchase/purchase1.png"/>
+                                    </div>
+                                </div>
                             </div>
                             <div className="tab-pane fade" id="purchase-two" role="tabpanel" aria-labelledby="purchase-two-tab">
                                 <div className="content">
@@ -399,9 +578,6 @@ const Home = () => {
                                             Universal Rating Scale <br/>
                                             Pure Information - Real Ratings (Not Inflated) <br/>
                                             Review&Rating Widgets</p>
-                                        <div className="join-beta-button" onClick={openPixurateRegister}>
-                                            Join Beta <BsArrowRight/>
-                                        </div>
                                     </div>
                                     <div className="right">
                                         <img src="/img/purchase/trusted1.png"/>
@@ -412,9 +588,8 @@ const Home = () => {
                                 <div className="content">
                                     <div className="left">
                                         <h2>Customer Incentives</h2>
-                                        <div className="join-beta-button" onClick={openPixurateRegister}>
-                                            Join Beta <BsArrowRight/>
-                                        </div>
+                                        <p>Easily create campaigns for your <br/> customers using our simple and user- <br/> friendly interface and reward each <br/> engagement according to your <br/> needs.</p>
+                                        <p><strong>For example</strong>, you can give rewards for leaving feedback for a new product <br/> that has no customer reviews. You <br/> can also reward customers for <br/> sharing the NFT of a star product to <br/> increase its visibility.</p>
                                     </div>
                                     <div className="right">
                                         <img src="/img/purchase/customer1.png"/>
@@ -425,16 +600,15 @@ const Home = () => {
                                 <div className="content">
                                     <div className="left">
                                         <h2>Community</h2>
-                                        <p>
-                                            FOMO effect <br/>
-                                            Feedback <br/>
-                                            Sharable <br/>
-                                            Insight about product <br/>
-                                            Influencer engagement
-                                        </p>
-                                        <div className="join-beta-button" onClick={openPixurateRegister}>
-                                            Join Beta <BsArrowRight/>
-                                        </div>
+                                        <h3>Build a loyal community:</h3>
+                                        <ul>
+                                            <li>Connect with your customers</li>
+                                            <li>Organic testimonials</li>
+                                            <li>Credible feedback for your store</li>
+                                            <li>Let word of mouth work for you</li>
+                                            <li>Engage with fans</li>
+                                            <li>Find influencers</li>
+                                        </ul>
                                     </div>
                                     <div className="right">
                                         <img src="/img/purchase/community1.png"/>
@@ -563,6 +737,12 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
+
+                <footer className="footer">
+                    <p className="info">Contact: info@pixurate.com</p>
+                    <p>All rights reserved.</p>
+                    <p>2022</p>
+                </footer>
             </div>
 
             <style global jsx>{`
@@ -595,7 +775,6 @@ const Home = () => {
               }
             `}</style>
         </>
-
     );
 };
 
