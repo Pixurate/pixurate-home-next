@@ -65,7 +65,7 @@ const Home = () => {
                                 <li><a href="">NFTs</a></li>
                                 <li><a href="">Influencers</a></li>
                                 <li><a href="">Tokens</a></li> */}
-                                <li><a href="https://2mt6spntv02.typeform.com/to/jQiA7T1z" target="_blank">Register to Waitlist</a></li>
+                                <li><a href="https://2mt6spntv02.typeform.com/to/jQiA7T1z" target="_blank">Join Waitlist</a></li>
                             </ul>
                         </div>
 
@@ -104,6 +104,7 @@ const Home = () => {
                         <p>
                             Pixurate provides ECommerce owners with seamlessly integrated Blockchain solutions to ace customer engagement.
                         </p>
+                        <button className='btnn'>Join Waitlist</button>
                     </div>
 
                     <div className="actions d-none">
@@ -164,9 +165,7 @@ const Home = () => {
                             <div className="tab-pane fade" id="generate-two" role="tabpanel" aria-labelledby="pills-profile-tab">
                                 <div className="content">
                                     <div className="left">
-                                        <h2>Incentivize
-                                            your customers
-                                            for engagement;</h2>
+                                        <h2>Creare offers and rewards to incentivize sign-up, social media posts and customer reviews.</h2>
                                         <div className="text">
                                             <ul>
                                                 <li>to improve social media presence and reach out to your customer’s network,</li>
@@ -293,7 +292,7 @@ const Home = () => {
                                         <div id="generate-three">
                                             <div className="content">
                                                 <div className="left">
-                                                    <h2 className="text">Reach out to your customers’ social media network. Do not spend a fortune on social media ads.</h2>
+                                                    <h2 className="text">Reach out to your customers’ social network. Activate word of mouth. Do not spend a fortune on social media ads.</h2>
                                                 </div>
                                                 <div className="right">
                                                     <img src="/img/generate/social1.png"/>
@@ -354,18 +353,20 @@ const Home = () => {
                 </section>
 
                 <section className="integrate">
-                    <h2>Integrate with houndereds platform</h2>
+                    <div className='integrate-first'>
+                    <h2>INTEGRATION WITH eCOMMERCE PLATFORMS</h2>
+                    <p>Pixurate is Growing Its Network of Compatibility with ECommerce Platforms</p>
+                    </div>
                     <div className="content">
                         <div className="img-box"><img src="/img/integrate/1.png"/></div>
-                        <div className="img-box"><img src="/img/integrate/2.png"/></div>
-                        <div className="img-box"><img src="/img/integrate/3.png"/></div>
+                        <div className="img-box"><img src="/img/integrate/7.png"/></div>
+                        <div className="img-box"><img src="/img/integrate/3.png"/></div>    
                         <div className="img-box"><img src="/img/integrate/4.png"/></div>
                         <div className="img-box"><img src="/img/integrate/5.png"/></div>
-                        <div className="img-box"><img src="/img/integrate/6.png"/></div>
-                        <div className="img-box"><img src="/img/integrate/7.png"/></div>
-                        <div className="img-box"><img src="/img/integrate/8.png"/></div>
-                        <div className="img-box"><img src="/img/integrate/9.png"/></div>
-                        <div className="img-box"><img src="/img/integrate/10.png"/></div>
+                        <div className="img-box"><img src="/img/integrate/12.png"/></div>
+                        <div className="img-box"><img src="/img/integrate/13.png"/></div>
+                        <div className="img-box"><img src="/img/integrate/w.png"/></div>
+                        <div className="img-box"><img src="/img/integrate/11.png"/></div>
                     </div>
                 </section>
 
