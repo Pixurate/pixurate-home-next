@@ -456,10 +456,9 @@ border-radius: 10px;
             }
 
             .after {
-              // margin: 0 32.24px 0 0;
+            
               img {
                 width: 28.225rem;
-                // height: 20.225rem;
                 max-width: 100%;
                 margin-left:2.015rem;
               }
@@ -477,20 +476,19 @@ border-radius: 10px;
             width: 30.9375rem;
             max-width: 100%;
             position: relative;
-
+          
             h2 {
               width: 28.1875rem;
-
               font-style: normal;
               font-weight: 700;
               font-size: 1.625rem;
               line-height: 2.4375rem;
               color: #000000;
-           
+              
             }
 
             .text {
-           
+              top:3.5625rem ;
               font-weight: 700;
               font-size: 1.125rem;
               line-height: 1.6875rem;
@@ -525,6 +523,7 @@ border-radius: 10px;
           > .right {
             img {
               width: 41.875rem;
+              right: 17.375rem;
             }
           }
         }
@@ -540,12 +539,15 @@ border-radius: 10px;
             position: absolute;
 
             .text {
+              width: 19.3125rem;
               font-weight: 700;
               font-size: 1.125rem;
               line-height: 1.6875rem;
               color: #000000;
               position: relative;
               z-index: 1;
+              left: 2.925rem;
+              padding-left: 1.985rem;
 
               &:after {
                 content: "";
@@ -582,12 +584,15 @@ border-radius: 10px;
             position: absolute;
 
             .text {
+              width: 17.160rem;
               font-weight: 700;
               font-size: 1.125rem;
               line-height: 1.6875rem;
               color: #000000;
               position: relative;
               z-index: 1;
+              left: 3.0625rem;
+              padding-left: 2.625rem;
 
               &:after {
                 content: "";
@@ -622,14 +627,19 @@ border-radius: 10px;
           > .left {
             width: 14.4375rem;
             position: absolute;
+           
 
             .text {
+              width: 16.15rem;
               font-weight: 700;
               font-size: 1.125rem;
               line-height: 1.6875rem;
               color: #000000;
               position: relative;
               z-index: 1;
+              left: 2.625rem;
+              padding-left: 2.325rem;
+
 
               &:after {
                 content: "";
@@ -647,10 +657,10 @@ border-radius: 10px;
 
           > .right {
             img {
-              width: 70.625rem;
+              width: 55.625rem;
               position: relative;
               top: -2.3125rem;
-              left: 17.1875rem;
+              left: 27.1875rem;
             }
           }
         }
@@ -1498,6 +1508,9 @@ line-height: 24px;
           .content {
 
             > .left {
+              .text{
+                width: 19.3125rem;
+              }
             }
 
             > .right {

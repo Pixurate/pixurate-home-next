@@ -118,7 +118,7 @@ const Home = () => {
                     <div className="content custom-tabs">
                         <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
                             <li className="nav-item" role="presentation">
-                                <button className="nav-link active" id="generate-first-tab" data-bs-toggle="pill" data-bs-target="#generate-first" type="button" role="tab" aria-controls="generate-first" aria-selected="true">Generate NFTs</button>
+                                <button className="nav-link active" id="generate-first-tab" data-bs-toggle="pill" data-bs-target="#generate-first" type="button" role="tab" aria-controls="generate-first" aria-selected="false">Generate NFTs</button>
                             </li>
                             <li className="nav-item" role="presentation">
                                 <button className="nav-link" id="generate-two-tab" data-bs-toggle="pill" data-bs-target="#generate-two" type="button" role="tab" aria-controls="generate-two" aria-selected="false">Incentivize Customers</button>
@@ -168,8 +168,8 @@ const Home = () => {
                                         <h2>Creare offers and rewards to incentivize sign-up, social media posts and customer reviews.</h2>
                                         <div className="text">
                                             <ul>
-                                                <li>to improve social media presence and reach out to your customer’s network,</li>
-                                                <li>“to collect feedback and highlight customer experience.”</li>
+                                                <li>Improve social media presence and reach out to your customers network,</li>
+                                                <li>Collect authentic feedback and highlight customer satisfaction.</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -598,10 +598,10 @@ const Home = () => {
                                 </div>
                             </div>
                             <div className="tab-pane fade" id="purchase-four" role="tabpanel" aria-labelledby="purchase-four-tab">
-                                <div className="content">
+                            <div className="content">
                                     <div className="left">
                                         <h2>Community</h2>
-                                        <h3>Build a loyal community:</h3>
+                                        <p><strong>Build a loyal community:</strong></p>
                                         <ul>
                                             <li>Connect with your customers</li>
                                             <li>Organic testimonials</li>
@@ -610,6 +610,7 @@ const Home = () => {
                                             <li>Engage with fans</li>
                                             <li>Find influencers</li>
                                         </ul>
+                                    
                                     </div>
                                     <div className="right">
                                         <img src="/img/purchase/community1.png"/>
