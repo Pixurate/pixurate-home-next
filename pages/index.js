@@ -174,7 +174,7 @@ const Home = () => {
                                         </div>
                                     </div>
                                     <div className="right">
-                                        <img src="/img/generate/incetivize1.png"/>
+                                        <img src="/img/generate/Incentivize2.png"/>
                                     </div>
                                 </div>
                             </div>
@@ -274,7 +274,7 @@ const Home = () => {
                                                     </div>
                                                 </div>
                                                 <div className="right">
-                                                    <img src="/img/generate/incetivize1.png"/>
+                                                    <img src="/img/generate/Incentivize2.png"/>
                                                 </div>
                                             </div>
                                         </div>
@@ -362,7 +362,7 @@ const Home = () => {
                         <div className="img-box"><img src="/img/integrate/2.png"/></div>
                         <div className="img-box"><img src="/img/integrate/3.png"/></div>    
                         <div className="img-box"><img src="/img/integrate/4.png"/></div>
-                        <div className="img-box"><img src="/img/integrate/5.png"/></div>
+                        {/* <div className="img-box"><img src="/img/integrate/5.png"/></div> */}
                         <div className="img-box"><img src="/img/integrate/6.png"/></div>
                         <div className="img-box"><img src="/img/integrate/7.png"/></div>
                         <div className="img-box"><img src="/img/integrate/8.png"/></div>
@@ -581,7 +581,7 @@ const Home = () => {
                                             Review&Rating Widgets</p>
                                     </div>
                                     <div className="right">
-                                        <img src="/img/purchase/trusted1.png"/>
+                                        <img src="/img/purchase/trusted2.png"/>
                                     </div>
                                 </div>
                             </div>
@@ -672,7 +672,7 @@ const Home = () => {
                                                     </div>
                                                 </div>
                                                 <div className="right">
-                                                    <img src="/img/purchase/trusted1.png"/>
+                                                    <img src="/img/purchase/trusted2.png"/>
                                                 </div>
                                             </div>
                                         </div>
@@ -742,7 +742,7 @@ const Home = () => {
 
                 <footer className="footer">
                     <p className="info">Contact: info@pixurate.com</p>
-                    <a href="#">Twitter</a>
+                    <a href="https://www.twitter.com">Twitter</a>
                     <p>All rights reserved.</p>
                     <p>2022</p>
                 </footer>
