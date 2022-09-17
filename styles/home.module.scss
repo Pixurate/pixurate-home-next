@@ -162,6 +162,7 @@ $dark-color: #666666;
       align-items: center;
       flex-direction: column;
      
+     
       button{
 
       font-family: 'Poppins';
@@ -555,7 +556,8 @@ $dark-color: #666666;
               z-index: 1;
               left: 2.925rem;
               padding-left: 1.985rem;
-
+              padding-top: 1.5rem;
+              
               &:after {
                 content: "";
                 position: absolute;
@@ -829,7 +831,7 @@ $dark-color: #666666;
               line-height: 125.7%;
               color: #8620E6;
               cursor: pointer;
-              margin-top: 5.25rem;
+              margin-top: 1.875rem;
 
               &:hover {
                 text-decoration: underline;
@@ -893,7 +895,7 @@ $dark-color: #666666;
               line-height: 125.7%;
               color: #8620E6;
               cursor: pointer;
-              margin-top: 5.25rem;
+              margin-top: 1.875rem;
 
               &:hover {
                 text-decoration: underline;
@@ -943,7 +945,7 @@ $dark-color: #666666;
               font-size: 1.25rem;
               color: #282828;
               margin-top: 1.875rem;
-              margin-bottom: 2.8125rem;
+              
             }
 
             .join-beta-button {
@@ -959,6 +961,7 @@ $dark-color: #666666;
               line-height: 125.7%;
               color: #8620E6;
               cursor: pointer;
+              margin-top: 1.875rem;
 
               &:hover {
                 text-decoration: underline;
@@ -1268,9 +1271,10 @@ $dark-color: #666666;
           > .left {
             h2 {
               font-weight: 700;
-              font-size: 1.93616875rem;
+              font-size: 1.9361rem;
               color: #282828;
               position: relative;
+              bottom: 1.875rem;
 
               &:before {
                 content: "";
@@ -1316,6 +1320,8 @@ $dark-color: #666666;
               font-size: 1.93616875rem;
               color: #282828;
               position: relative;
+              bottom: 1.875rem;
+
 
               &:before {
                 content: "";
@@ -1362,6 +1368,7 @@ $dark-color: #666666;
               font-size: 1.93616875rem;
               color: #282828;
               position: relative;
+              bottom: 1.875rem;
 
               &:before {
                 content: "";
@@ -1412,6 +1419,7 @@ $dark-color: #666666;
               font-size: 1.93616875rem;
               color: #282828;
               position: relative;
+              bottom: 1.875rem;
 
               &:before {
                 content: "";
@@ -1584,11 +1592,11 @@ $dark-color: #666666;
       padding-left: 1.25rem;
       padding-right: 1.25rem;
       height: max-content;
-
+    
+  
 
       .texts {
-    
-
+        
         h1 {
         
           strong {
@@ -1604,6 +1612,11 @@ $dark-color: #666666;
         p {
           font-size: 1rem;
         }
+
+        // a{
+        //   color: #BA00B3;
+        //   text-decoration: none;
+        // } 
       }
 
       .actions {

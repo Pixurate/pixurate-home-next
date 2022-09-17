@@ -104,7 +104,7 @@ const Home = () => {
                         <p>
                             Pixurate provides ECommerce owners with seamlessly integrated Blockchain solutions to ace customer engagement.
                         </p>
-                        <button className='btnn'>Join Waitlist</button>
+                        <a href="https://2mt6spntv02.typeform.com/to/jQiA7T1z" target="_blank">Join Waitlist</a>
                     </div>
 
                     <div className="actions d-none">
@@ -362,7 +362,7 @@ const Home = () => {
                         <div className="img-box"><img src="/img/integrate/2.png"/></div>
                         <div className="img-box"><img src="/img/integrate/3.png"/></div>    
                         <div className="img-box"><img src="/img/integrate/4.png"/></div>
-                        {/* <div className="img-box"><img src="/img/integrate/5.png"/></div> */}
+                        <div className="img-box"><img src="/img/integrate/5.png"/></div>
                         <div className="img-box"><img src="/img/integrate/6.png"/></div>
                         <div className="img-box"><img src="/img/integrate/7.png"/></div>
                         <div className="img-box"><img src="/img/integrate/8.png"/></div>
@@ -443,7 +443,7 @@ const Home = () => {
                                         <div id="business-one" role="tabpanel">
                                             <div className="content">
                                                 <div className="left">
-                                                    <h2>Business owners!</h2>
+                                                    <h2>Business Owners</h2>
                                                     <p>Organic&Authentic <br/> Customer Engagement</p>
                                                     <div className="join-beta-button" onClick={openPixurateRegister}>
                                                         Join Beta <BsArrowRight/>
