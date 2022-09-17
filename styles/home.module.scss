@@ -24,7 +24,7 @@ $dark-color: #666666;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      width: 85.375rem;
+      width: 75.375rem;
       max-width: 100%;
       margin: 0 auto;
 
@@ -164,16 +164,16 @@ $dark-color: #666666;
      
       button{
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-padding: 0.5rem 2rem;
-border: 1px solid #9B51E0;
-color: #9B51E0;
-background-color: transparent;
-border-radius: 10px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1rem;
+      line-height: 1.5rem;
+      padding: 0.5rem 2rem;
+      border: 1px solid #9B51E0;
+      color: #9B51E0;
+      background-color: transparent;
+      border-radius: .625rem;
       }
 
       h1 {
@@ -279,8 +279,8 @@ border-radius: 10px;
           color: #000000;
           text-align: center;
           letter-spacing: 0.02rem;
-          margin-left:7rem !important ;
-          margin-right: -7rem !important;
+          // margin-left:7rem !important ;
+          // margin-right: -7rem !important;
         
 
           &:nth-last-of-type(1) {
@@ -296,6 +296,8 @@ border-radius: 10px;
     }
 
     #pills-tab {
+      // display: flex;
+      // justify-content: center;
       width: max-content;
       margin: 0 auto;
       z-index: 9;
@@ -316,7 +318,7 @@ border-radius: 10px;
     > .content {
       width: 71.4375rem;
       max-width: 100%;
-      margin: 0 0 0 13.8125rem;
+      margin: 0 auto;
       &.mobile-content {
         display: none;
       }
@@ -341,7 +343,8 @@ border-radius: 10px;
               color: #000000;
               position: relative;
               z-index: 1;
-              padding-left: 4.8rem;
+              padding-left:4.8rem;
+              left: -1.625rem;
         
             
               &:after {
@@ -476,14 +479,16 @@ border-radius: 10px;
             width: 30.9375rem;
             max-width: 100%;
             position: relative;
+            left: 0;
           
             h2 {
               width: 28.1875rem;
               font-style: normal;
               font-weight: 700;
-              font-size: 1.625rem;
+              font-size: 1.325rem;
               line-height: 2.4375rem;
               color: #000000;
+              
               
             }
 
@@ -495,6 +500,7 @@ border-radius: 10px;
               color: #000000;
               position: relative;
               z-index: 1;
+             
 
               ul {
                 li {
@@ -537,6 +543,7 @@ border-radius: 10px;
           > .left {
             width: 12.5rem;
             position: absolute;
+            left: -1.625rem;
 
             .text {
               width: 19.3125rem;
@@ -582,6 +589,7 @@ border-radius: 10px;
           > .left {
             width: 14.4375rem;
             position: absolute;
+            left: -1.625rem;
 
             .text {
               width: 17.160rem;
@@ -627,6 +635,7 @@ border-radius: 10px;
           > .left {
             width: 14.4375rem;
             position: absolute;
+            left: -1.625rem;
            
 
             .text {
@@ -692,7 +701,7 @@ border-radius: 10px;
       justify-content: center;
       background-color: white;
       margin: 0 auto;
-      box-shadow: 0rem 0.75rem 1.25rem 0rem rgb(0 0 0 / 4%);
+      // box-shadow: 0rem 0.75rem 1.25rem 0rem rgb(0 0 0 / 4%);
       border-radius: 1.75rem;
       // position: relative;
       // top: -6.25rem;
@@ -703,7 +712,7 @@ border-radius: 10px;
         font-weight: 700;
         font-size: 1.5rem;
         line-height: 1.6875rem;
-        text-transform: uppercase;
+        // text-transform: uppercase;
         // position: absolute;
         // top: -6.25rem;
         // padding: 1.5rem 5.093rem 3.5rem;
@@ -712,10 +721,10 @@ border-radius: 10px;
   
     p{
       font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 1.5rem;
     }
 
 
@@ -740,7 +749,7 @@ line-height: 24px;
         justify-content: center;
         border-radius: 100%;
         padding: 0.9375rem 0;
-        box-shadow: 0rem 0.75rem 1.25rem 0rem rgb(0 0 0 / 4%);
+        // box-shadow: 0rem 0.75rem 1.25rem 0rem rgb(0 0 0 / 4%);
        
 
         img {
@@ -1380,9 +1389,9 @@ line-height: 24px;
 
           > .right {
             img {
-              width: 60rem;
+              width: 39.0625rem;
               position: absolute;
-              right: -9.375rem;
+          right: -1.375rem;
               top: -2.8125rem;
             }
           }
@@ -1462,6 +1471,9 @@ line-height: 24px;
     .info {
       color: #111111;
       font-weight: bold;
+    }
+    a{
+     padding-bottom: 1rem;
     }
 
     p {
@@ -1756,7 +1768,7 @@ line-height: 24px;
 
     :global .integrate {
       height: max-content;
-      margin-top: 200px;
+      margin-top: 12.5rem;
 
       .content {
         flex-wrap: wrap;
@@ -1772,7 +1784,7 @@ line-height: 24px;
       .content {
         width: 100%;
         flex-direction: column;
-        padding: 20px;
+        padding: 1.25rem;
 
         > div {
           width: 100% !important;
