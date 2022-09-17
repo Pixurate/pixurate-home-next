@@ -165,7 +165,7 @@ const Home = () => {
                             <div className="tab-pane fade" id="generate-two" role="tabpanel" aria-labelledby="pills-profile-tab">
                                 <div className="content">
                                     <div className="left">
-                                        <h2>Creare offers and rewards to incentivize sign-up, social media posts and customer reviews.</h2>
+                                        <h2>Create offers and rewards to incentivize sign-up, social media posts and customer reviews.</h2>
                                         <div className="text">
                                             <ul>
                                                 <li>Improve social media presence and reach out to your customers network,</li>
@@ -191,17 +191,17 @@ const Home = () => {
                             <div className="tab-pane fade" id="generate-four" role="tabpanel" aria-labelledby="generate-four-tab">
                                 <div className="content">
                                     <div className="left">
-                                        <h2 className="text">“Collect authentic reviews from your customers and promote your best products.”</h2>
+                                        <h2 className="text">Collect authentic reviews from your customers and promote your best products.</h2>
                                     </div>
                                     <div className="right">
-                                        <img src="/img/generate/collect1.png"/>
+                                        <img src="/img/generate/collect2.png"/>
                                     </div>
                                 </div>
                             </div>
                             <div className="tab-pane fade" id="generate-five" role="tabpanel" aria-labelledby="generate-five-tab">
                                 <div className="content">
                                     <div className="left">
-                                        <h2 className="text">“Build and connect with your community of loyal customers.”</h2>
+                                        <h2 className="text">Build and connect with your community of loyal customers.</h2>
                                     </div>
                                     <div className="right">
                                         <img src="/img/generate/community1.png"/>
@@ -252,7 +252,7 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="accordion-item">
+                            <div className="accordion-iinetem">
                                 <h2 className="accordion-header" id="headingTwo">
                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                         Incentivize Customers
@@ -359,14 +359,14 @@ const Home = () => {
                     </div>
                     <div className="content">
                         <div className="img-box"><img src="/img/integrate/1.png"/></div>
-                        <div className="img-box"><img src="/img/integrate/7.png"/></div>
+                        <div className="img-box"><img src="/img/integrate/2.png"/></div>
                         <div className="img-box"><img src="/img/integrate/3.png"/></div>    
                         <div className="img-box"><img src="/img/integrate/4.png"/></div>
                         <div className="img-box"><img src="/img/integrate/5.png"/></div>
-                        <div className="img-box"><img src="/img/integrate/12.png"/></div>
-                        <div className="img-box"><img src="/img/integrate/13.png"/></div>
-                        <div className="img-box"><img src="/img/integrate/w.png"/></div>
-                        <div className="img-box"><img src="/img/integrate/11.png"/></div>
+                        <div className="img-box"><img src="/img/integrate/6.png"/></div>
+                        <div className="img-box"><img src="/img/integrate/7.png"/></div>
+                        <div className="img-box"><img src="/img/integrate/8.png"/></div>
+                        <div className="img-box"><img src="/img/integrate/9.png"/></div>
                     </div>
                 </section>
 
@@ -374,7 +374,7 @@ const Home = () => {
                     <div className="content custom-tabs">
                         <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
                             <li className="nav-item" role="presentation">
-                                <button className="nav-link active" id="business-one-tab" data-bs-toggle="pill" data-bs-target="#business-one" type="button" role="tab" aria-controls="business-one" aria-selected="true">Business owners</button>
+                                <button className="nav-link active" id="business-one-tab" data-bs-toggle="pill" data-bs-target="#business-one" type="button" role="tab" aria-controls="business-one" aria-selected="true">Business Owners</button>
                             </li>
                             <li className="nav-item" role="presentation">
                                 <button className="nav-link" id="business-two-tab" data-bs-toggle="pill" data-bs-target="#business-two" type="button" role="tab" aria-controls="business-two" aria-selected="false">Customers</button>
@@ -387,7 +387,7 @@ const Home = () => {
                             <div className="tab-pane fade show active" id="business-one" role="tabpanel" aria-labelledby="business-one-tab">
                                 <div className="content">
                                     <div className="left">
-                                        <h2>Business owners!</h2>
+                                        <h2>Business Owners</h2>
                                         <p>Organic&Authentic <br/> Customer Engagement</p>
                                         <div className="join-beta-button" onClick={openPixurateRegister}>
                                             Join Beta <BsArrowRight/>
@@ -534,7 +534,7 @@ const Home = () => {
                         </div>
 
                         <div className="right">
-                            <img src="/img/social-commerce.png"/>
+                            <img src="/img/socialCommerce.png"/>
                         </div>
                     </div>
                 </section>
@@ -543,7 +543,7 @@ const Home = () => {
                     <div className="content custom-tabs">
                         <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
                             <li className="nav-item" role="presentation">
-                                <button className="nav-link active" id="purchase-one-tab" data-bs-toggle="pill" data-bs-target="#purchase-one" type="button" role="tab" aria-controls="purchase-one" aria-selected="true">Verified purchase</button>
+                                <button className="nav-link active" id="purchase-one-tab" data-bs-toggle="pill" data-bs-target="#purchase-one" type="button" role="tab" aria-controls="purchase-one" aria-selected="true">Purchase Verification</button>
                             </li>
                             <li className="nav-item" role="presentation">
                                 <button className="nav-link" id="purchase-two-tab" data-bs-toggle="pill" data-bs-target="#purchase-two" type="button" role="tab" aria-controls="purchase-two" aria-selected="false">Trusted Reviews</button>
@@ -593,7 +593,7 @@ const Home = () => {
                                         <p><strong>For example</strong>, you can give rewards for leaving feedback for a new product <br/> that has no customer reviews. You <br/> can also reward customers for <br/> sharing the NFT of a star product to <br/> increase its visibility.</p>
                                     </div>
                                     <div className="right">
-                                        <img src="/img/purchase/customer1.png"/>
+                                        <img src="/img/purchase/customers2.png"/>
                                     </div>
                                 </div>
                             </div>
@@ -613,7 +613,7 @@ const Home = () => {
                                     
                                     </div>
                                     <div className="right">
-                                        <img src="/img/purchase/community1.png"/>
+                                        <img src="/img/purchase/Community.png"/>
                                     </div>
                                 </div>
                             </div>
@@ -742,6 +742,7 @@ const Home = () => {
 
                 <footer className="footer">
                     <p className="info">Contact: info@pixurate.com</p>
+                    <a href="#">Twitter</a>
                     <p>All rights reserved.</p>
                     <p>2022</p>
                 </footer>
