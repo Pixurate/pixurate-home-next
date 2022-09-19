@@ -162,19 +162,20 @@ $dark-color: #666666;
       align-items: center;
       flex-direction: column;
      
-      button{
+     
+      // button{
 
-      font-family: 'Poppins';
-      font-style: normal;
-      font-weight: 500;
-      font-size: 1rem;
-      line-height: 1.5rem;
-      padding: 0.5rem 2rem;
-      border: 1px solid #9B51E0;
-      color: #9B51E0;
-      background-color: transparent;
-      border-radius: .625rem;
-      }
+      // font-family: 'Poppins';
+      // font-style: normal;
+      // font-weight: 500;
+      // font-size: 1rem;
+      // line-height: 1.5rem;
+      // padding: 0.5rem 2rem;
+      // border: 1px solid #9B51E0;
+      // color: #9B51E0;
+      // background-color: transparent;
+      // border-radius: .625rem;
+      // }
 
       h1 {
         font-weight: 400;
@@ -214,6 +215,18 @@ $dark-color: #666666;
           margin-top: 1.875rem;
         }
       }
+      a {
+        text-decoration: underline;
+        color: #000;
+        border: 0.0625rem solid $primary-color;
+        border-radius: 0.25rem;
+        padding: 0.5rem 1rem;
+
+        &.active, &:hover {
+          color: $primary-color;
+        }
+      }
+      
     }
 
     .actions {
@@ -555,7 +568,8 @@ $dark-color: #666666;
               z-index: 1;
               left: 2.925rem;
               padding-left: 1.985rem;
-
+              padding-top: 1.5rem;
+              
               &:after {
                 content: "";
                 position: absolute;
@@ -829,7 +843,7 @@ $dark-color: #666666;
               line-height: 125.7%;
               color: #8620E6;
               cursor: pointer;
-              margin-top: 5.25rem;
+              margin-top: 1.875rem;
 
               &:hover {
                 text-decoration: underline;
@@ -893,7 +907,7 @@ $dark-color: #666666;
               line-height: 125.7%;
               color: #8620E6;
               cursor: pointer;
-              margin-top: 5.25rem;
+              margin-top: 1.875rem;
 
               &:hover {
                 text-decoration: underline;
@@ -943,7 +957,7 @@ $dark-color: #666666;
               font-size: 1.25rem;
               color: #282828;
               margin-top: 1.875rem;
-              margin-bottom: 2.8125rem;
+              
             }
 
             .join-beta-button {
@@ -959,6 +973,7 @@ $dark-color: #666666;
               line-height: 125.7%;
               color: #8620E6;
               cursor: pointer;
+              margin-top: 1.875rem;
 
               &:hover {
                 text-decoration: underline;
@@ -1268,9 +1283,10 @@ $dark-color: #666666;
           > .left {
             h2 {
               font-weight: 700;
-              font-size: 1.93616875rem;
+              font-size: 1.9361rem;
               color: #282828;
               position: relative;
+              bottom: 1.875rem;
 
               &:before {
                 content: "";
@@ -1316,6 +1332,8 @@ $dark-color: #666666;
               font-size: 1.93616875rem;
               color: #282828;
               position: relative;
+              bottom: 1.875rem;
+
 
               &:before {
                 content: "";
@@ -1362,6 +1380,7 @@ $dark-color: #666666;
               font-size: 1.93616875rem;
               color: #282828;
               position: relative;
+              bottom: 1.875rem;
 
               &:before {
                 content: "";
@@ -1412,6 +1431,7 @@ $dark-color: #666666;
               font-size: 1.93616875rem;
               color: #282828;
               position: relative;
+              bottom: 1.875rem;
 
               &:before {
                 content: "";
@@ -1584,11 +1604,11 @@ $dark-color: #666666;
       padding-left: 1.25rem;
       padding-right: 1.25rem;
       height: max-content;
-
+    
+  
 
       .texts {
-    
-
+        
         h1 {
         
           strong {
@@ -1604,6 +1624,11 @@ $dark-color: #666666;
         p {
           font-size: 1rem;
         }
+
+        // a{
+        //   color: #BA00B3;
+        //   text-decoration: none;
+        // } 
       }
 
       .actions {
