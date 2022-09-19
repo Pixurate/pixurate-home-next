@@ -104,11 +104,11 @@ const Home = () => {
                         <p>
                             Pixurate provides ECommerce owners with seamlessly integrated Blockchain solutions to ace customer engagement.
                         </p>
-                        <a href="https://2mt6spntv02.typeform.com/to/jQiA7T1z" target="_blank">Join Waitlist</a>
+                        <a className='active' href="https://2mt6spntv02.typeform.com/to/jQiA7T1z" target="_blank">Join Waitlist</a>
                     </div>
 
                     <div className="actions d-none">
-                        <div>I’m a <strong>business owner</strong> <BsCaretDownFill/></div>
+                        <div>I’m a <strong>Business Owner</strong> <BsCaretDownFill/></div>
                         <div>I’m interested with <strong>NFT</strong> <BsCaretDownFill/></div>
                         <div className="add-wait-list" onClick={addMeWaitlist}>+ Add me waitlist</div>
                     </div>
@@ -528,9 +528,9 @@ const Home = () => {
                             <p>You can't just rely on your social media accounts to sell your products. You need to embrace online <strong>word-of-mouth</strong>.</p>
                             <p>And that's where Pixurate comes in. With Pixurate, <br/> complement each sale with a <strong>unique NFT</strong> and <br/> give your customers the right incentive to tell <br/> their friends about you.</p>
                             <p>Advertising has limited influence on <br/> sales; leverage recommendations and <br/> content disseminated by your <br/> customers — <strong>and make them your <br/> ambassadors!</strong></p>
-                            <div className="join-beta-button" onClick={openPixurateRegister}>
+                            {/* <div className="join-beta-button" onClick={openPixurateRegister}>
                                 Join Beta <BsArrowRight/>
-                            </div>
+                            </div> */}
                         </div>
 
                         <div className="right">
@@ -742,7 +742,7 @@ const Home = () => {
 
                 <footer className="footer">
                     <p className="info">Contact: info@pixurate.com</p>
-                    <a href="https://www.twitter.com">Twitter</a>
+                    <a href="https://twitter.com/pixurate">Twitter</a>
                     <p>All rights reserved.</p>
                     <p>2022</p>
                 </footer>

@@ -163,19 +163,19 @@ $dark-color: #666666;
       flex-direction: column;
      
      
-      button{
+      // button{
 
-      font-family: 'Poppins';
-      font-style: normal;
-      font-weight: 500;
-      font-size: 1rem;
-      line-height: 1.5rem;
-      padding: 0.5rem 2rem;
-      border: 1px solid #9B51E0;
-      color: #9B51E0;
-      background-color: transparent;
-      border-radius: .625rem;
-      }
+      // font-family: 'Poppins';
+      // font-style: normal;
+      // font-weight: 500;
+      // font-size: 1rem;
+      // line-height: 1.5rem;
+      // padding: 0.5rem 2rem;
+      // border: 1px solid #9B51E0;
+      // color: #9B51E0;
+      // background-color: transparent;
+      // border-radius: .625rem;
+      // }
 
       h1 {
         font-weight: 400;
@@ -215,6 +215,19 @@ $dark-color: #666666;
           margin-top: 1.875rem;
         }
       }
+      a {
+        text-decoration: underline;
+        color: #000;
+        border: 0.0625rem solid $primary-color;
+        border-radius: 0.25rem;
+        padding: 0.5rem 1rem;
+
+
+        &.active, &:hover {
+          color: $primary-color;
+        }
+      }
+      
     }
 
     .actions {
