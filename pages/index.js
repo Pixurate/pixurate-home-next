@@ -8,14 +8,30 @@ import {BsList, BsCaretDownFill, BsArrowRight} from "react-icons/bs";
 const Home = () => {
     const [isMobileMenuActive, setMobileMenuActive] = useState(false);
     const [isHeaderFix, setHeaderFix] = useState(false);
+    const [year , setYear] = useState("2023")
 
     useEffect(() => {
         window.onscroll = function () {
             headerScroll()
         };
-        headerScroll()
+        headerScroll();
+        const _year = new Date().getFullYear()
+        setYear(_year);
     }, []);
 
+   const  tabClickSetScroll = (type) => {
+    let topLength ;
+    if(type === "generate") topLength = 800 ;
+    if(type === "business") topLength = 2200 ;
+    if(type === "purchase") topLength = 3620 ;
+    
+    window.scrollTo({
+        top: topLength,
+        left: 100,
+        behavior: 'smooth'
+      });
+    
+    }
 
     const headerScroll = () => {
         var header = document.getElementById("my-header");
@@ -118,19 +134,19 @@ const Home = () => {
                     <div className="content custom-tabs">
                         <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
                             <li className="nav-item" role="presentation">
-                                <button className="nav-link active" id="generate-first-tab" data-bs-toggle="pill" data-bs-target="#generate-first" type="button" role="tab" aria-controls="generate-first" aria-selected="false">Generate NFTs</button>
+                                <button className="nav-link active" id="generate-first-tab" data-bs-toggle="pill" data-bs-target="#generate-first" type="button" role="tab" aria-controls="generate-first" aria-selected="false" onClick={() => tabClickSetScroll("generate")}>Generate NFTs</button>
                             </li>
                             <li className="nav-item" role="presentation">
-                                <button className="nav-link" id="generate-two-tab" data-bs-toggle="pill" data-bs-target="#generate-two" type="button" role="tab" aria-controls="generate-two" aria-selected="false">Incentivize Customers</button>
+                                <button className="nav-link" id="generate-two-tab" data-bs-toggle="pill" data-bs-target="#generate-two" type="button" role="tab" aria-controls="generate-two" aria-selected="false" onClick={() => tabClickSetScroll("generate")}>Incentivize Customers</button>
                             </li>
                             <li className="nav-item" role="presentation">
-                                <button className="nav-link" id="generate-three-tab" data-bs-toggle="pill" data-bs-target="#generate-three" type="button" role="tab" aria-controls="generate-three" aria-selected="false">Improve Social Media Presence</button>
+                                <button className="nav-link" id="generate-three-tab" data-bs-toggle="pill" data-bs-target="#generate-three" type="button" role="tab" aria-controls="generate-three" aria-selected="false" onClick={() => tabClickSetScroll("generate")}>Improve Social Media Presence</button>
                             </li>
                             <li className="nav-item" role="presentation">
-                                <button className="nav-link" id="generate-four-tab" data-bs-toggle="pill" data-bs-target="#generate-four" type="button" role="tab" aria-controls="generate-four" aria-selected="false">Collect Authentic Reviews</button>
+                                <button className="nav-link" id="generate-four-tab" data-bs-toggle="pill" data-bs-target="#generate-four" type="button" role="tab" aria-controls="generate-four" aria-selected="false" onClick={() => tabClickSetScroll("generate")}>Collect Authentic Reviews</button>
                             </li>
                             <li className="nav-item" role="presentation">
-                                <button className="nav-link" id="generate-five-tab" data-bs-toggle="pill" data-bs-target="#generate-five" type="button" role="tab" aria-controls="generate-five" aria-selected="false">Build a Community</button>
+                                <button className="nav-link" id="generate-five-tab" data-bs-toggle="pill" data-bs-target="#generate-five" type="button" role="tab" aria-controls="generate-five" aria-selected="false" onClick={() => tabClickSetScroll("generate")}>Build a Community</button>
                             </li>
                         </ul>
                         <div className="tab-content " id="pills-tabContent">
@@ -254,7 +270,7 @@ const Home = () => {
                             </div>
                             <div className="accordion-iinetem">
                                 <h2 className="accordion-header" id="headingTwo">
-                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" >
                                         Incentivize Customers
                                     </button>
                                 </h2>
@@ -374,13 +390,13 @@ const Home = () => {
                     <div className="content custom-tabs">
                         <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
                             <li className="nav-item" role="presentation">
-                                <button className="nav-link active" id="business-one-tab" data-bs-toggle="pill" data-bs-target="#business-one" type="button" role="tab" aria-controls="business-one" aria-selected="true">Business Owners</button>
+                                <button className="nav-link active" id="business-one-tab" data-bs-toggle="pill" data-bs-target="#business-one" type="button" role="tab" aria-controls="business-one" aria-selected="true" onClick={() => tabClickSetScroll("business")}>Business Owners</button>
                             </li>
                             <li className="nav-item" role="presentation">
-                                <button className="nav-link" id="business-two-tab" data-bs-toggle="pill" data-bs-target="#business-two" type="button" role="tab" aria-controls="business-two" aria-selected="false">Customers</button>
+                                <button className="nav-link" id="business-two-tab" data-bs-toggle="pill" data-bs-target="#business-two" type="button" role="tab" aria-controls="business-two" aria-selected="false" onClick={() => tabClickSetScroll("business")}>Customers</button>
                             </li>
                             <li className="nav-item" role="presentation">
-                                <button className="nav-link" id="business-three-tab" data-bs-toggle="pill" data-bs-target="#business-three" type="button" role="tab" aria-controls="business-three" aria-selected="false">Influencers</button>
+                                <button className="nav-link" id="business-three-tab" data-bs-toggle="pill" data-bs-target="#business-three" type="button" role="tab" aria-controls="business-three" aria-selected="false" onClick={() => tabClickSetScroll("business")}>Influencers</button>
                             </li>
                         </ul>
                         <div className="tab-content" id="pills-tabContent">
@@ -543,16 +559,16 @@ const Home = () => {
                     <div className="content custom-tabs">
                         <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
                             <li className="nav-item" role="presentation">
-                                <button className="nav-link active" id="purchase-one-tab" data-bs-toggle="pill" data-bs-target="#purchase-one" type="button" role="tab" aria-controls="purchase-one" aria-selected="true">Purchase Verification</button>
+                                <button className="nav-link active" id="purchase-one-tab" data-bs-toggle="pill" data-bs-target="#purchase-one" type="button" role="tab" aria-controls="purchase-one" aria-selected="true" onClick={() => tabClickSetScroll("purchase")}>Purchase Verification</button>
                             </li>
                             <li className="nav-item" role="presentation">
-                                <button className="nav-link" id="purchase-two-tab" data-bs-toggle="pill" data-bs-target="#purchase-two" type="button" role="tab" aria-controls="purchase-two" aria-selected="false">Trusted Reviews</button>
+                                <button className="nav-link" id="purchase-two-tab" data-bs-toggle="pill" data-bs-target="#purchase-two" type="button" role="tab" aria-controls="purchase-two" aria-selected="false" onClick={() => tabClickSetScroll("purchase")}>Trusted Reviews</button>
                             </li>
                             <li className="nav-item" role="presentation">
-                                <button className="nav-link" id="purchase-three-tab" data-bs-toggle="pill" data-bs-target="#purchase-three" type="button" role="tab" aria-controls="purchase-three" aria-selected="false">Customer Incentives</button>
+                                <button className="nav-link" id="purchase-three-tab" data-bs-toggle="pill" data-bs-target="#purchase-three" type="button" role="tab" aria-controls="purchase-three" aria-selected="false" onClick={() => tabClickSetScroll("purchase")}>Customer Incentives</button>
                             </li>
                             <li className="nav-item" role="presentation">
-                                <button className="nav-link" id="purchase-four-tab" data-bs-toggle="pill" data-bs-target="#purchase-four" type="button" role="tab" aria-controls="purchase-four" aria-selected="false">Community</button>
+                                <button className="nav-link" id="purchase-four-tab" data-bs-toggle="pill" data-bs-target="#purchase-four" type="button" role="tab" aria-controls="purchase-four" aria-selected="false" onClick={() => tabClickSetScroll("purchase")}>Community</button>
                             </li>
                         </ul>
                         <div className="tab-content" id="pills-tabContent">
@@ -744,7 +760,7 @@ const Home = () => {
                     <p className="info">Contact: info@pixurate.com</p>
                     <a href="https://twitter.com/pixurate">Twitter</a>
                     <p>All rights reserved.</p>
-                    <p>2022</p>
+                    <p>{year}</p>
                 </footer>
             </div>
 
