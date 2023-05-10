@@ -49,7 +49,7 @@ const Home = () => {
     }
 
     const openPixurateRegister = () => {
-        window.open("https://app.pixurate.com/register", "_blank");
+        window.open("https://app.pixurate.com/auth/register", "_blank");
     }
     return (<>
             <Head>
@@ -87,8 +87,8 @@ const Home = () => {
 
                         <div className="menu">
                             <ul>
-                                <li><a href="https://app.pixurate.com/login" target="_blank">Login</a></li>
-                                <li><a className="active" href="https://app.pixurate.com/register" target="_blank">Sign up</a></li>
+                                <li><a href="https://app.pixurate.com/auth/login" target="_blank">Login</a></li>
+                                <li><a className="active" href="https://app.pixurate.com/auth/register" target="_blank">Sign up</a></li>
                             </ul>
                             <div className="toggle" onClick={() => updateMobileMenuActive()}>
                                 <BsList/>
